@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8"/>
     <title>
       newsletter
     </title>
     <body>
-      <h1 style ="color:orange"> Mon premier site</h1>
+      <h1 style ="color:orange"> Newsletter</h1>
     </body>
     <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
@@ -35,9 +36,10 @@
 <div class="mc-field-group size1of2">
 	<label for="mce-BIRTHDAY-month">Birthday </label>
 	<div class="datefield">
+		<span class="subfield dayfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day"></span> /
 		<span class="subfield monthfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month"></span> /
-		<span class="subfield dayfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day"></span>
-		<span class="small-meta nowrap">( mm / dd )</span>
+    <span class="subfield yearfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="YY" size="2" maxlength="2" name="BIRTHDAY[year]" id="mce-BIRTHDAY-year"></span>
+		<span class="small-meta nowrap">( dd / mm / yy )</span>
 	</div>
 </div>	<div id="mce-responses" class="clear">
 		<div class="response" id="mce-error-response" style="display:none"></div>

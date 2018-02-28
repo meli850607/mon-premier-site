@@ -1,0 +1,13 @@
+html{
+  background:#fff;
+  font-family: lato,arial,serif;
+  font-weight: 200;
+  font-size: 100px;
+  color: orange;
+  text-rendering: optimizeLegibility;
+}
+.row{
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-left: 100px;
+}
